@@ -1,0 +1,52 @@
+:root {
+  /* summary  */
+  --clr-light-red: hsl(0, 100%, 67%);
+  --clr-super-light-red: hsla(0, 100%, 67%, 0.1);
+  --clr-orangey-yellow: hsl(39, 100%, 56%);
+  --clr-light-orangey-yellow: hsl(39, 100%, 56%, 0.1);
+  --clr-green-teal: hsl(166, 100%, 37%);
+  --clr-light-green-teal: hsl(166, 100%, 37%, 0.1);
+  --clr-cobalt-blue: hsl(234, 85%, 45%);
+  --clr-light-cobalt-blue: hsl(234, 85%, 45%, 0.1);
+
+  /* background */
+  --clr-light-slate-blue: hsl(252, 100%, 67%);
+  --clr-light-royal-blue: hsl(241, 81%, 54%);
+
+  /* circle  */
+  --clr-violet-blue: hsla(256, 72%, 46%, 1);
+  --clr-persian-blue: hsla(241, 72%, 46%, 0);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-pale-blue: hsl(221, 100%, 96%);
+  --clr-light-lavender: hsl(241, 100%, 89%);
+  --clr-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: var(--clr-pale-blue);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/app.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <section class="app container section">
+      <div class="app__result">
+        <h3 class="app__result-title">Your Result</h3>
+        <div class="app__result-circle">
+          <h1 class="app__result-circle-total"></h1>
+          <h4 class="app__result-circle-max">of 100</h4>
+        </div>
+        <h1 class="app__result-subtitle"></h1>
+        <p class="app__result-description"></p>
+      </div>
+      <div class="app__summary">
+        <!-- Reaction -->
+        <h3 class="app__summary-title">Summary</h3>
+        <div class="app__summary-reaction app__summary-categories">
+          <img
+            class="app__summary-categories-img"
+            src="./assets/images/icon-reaction.svg"
+            alt=""
+          />
+          <h3 class="app__summary-reaction-title app__summary-categories-title">
+            Reaction
+          </h3>
+          <h3
+            class="app__summary-categories-score1 app__summary-reaction-score1"
+          ></h3>
+          <h3 class="app__summary-categories-score2">/ 100</h3>
+        </div>
+        <!-- Memory -->
+        <div class="app__summary-memory app__summary-categories">
+          <img
+            class="app__summary-categories-img"
+            src="./assets/images/icon-memory.svg"
+            alt=""
+          />
+          <h3 class="app__summary-memory-title app__summary-categories-title">
+            Memory
+          </h3>
+          <h3
+            class="app__summary-categories-score1 app__summary-memory-score1"
+          ></h3>
+          <h3 class="app__summary-categories-score2">/ 100</h3>
+        </div>
+        <!-- Verbal -->
+        <div class="app__summary-verbal app__summary-categories">
+          <img
+            class="app__summary-categories-img"
+            src="./assets/images/icon-verbal.svg"
+            alt=""
+          />
+          <h3 class="app__summary-verbal-title app__summary-categories-title">
+            Verbal
+          </h3>
+          <h3
+            class="app__summary-categories-score1 app__summary-verbal-score1"
+          ></h3>
+          <h3 class="app__summary-categories-score2">/ 100</h3>
+        </div>
+        <!-- Visual -->
+        <div class="app__summary-visual app__summary-categories">
+          <img
+            class="app__summary-categories-img"
+            src="./assets/images/icon-visual.svg"
+            alt=""
+          />
+          <h3 class="app__summary-visual-title app__summary-categories-title">
+            Visual
+          </h3>
+          <h3
+            class="app__summary-categories-score1 app__summary-visual-score1"
+          ></h3>
+          <h3 class="app__summary-categories-score2">/ 100</h3>
+        </div>
+        <button class="app__summary-btn btn">Continue</button>
+      </div>
+    </section>
+    <section class="footer container section">
+      <div class="footer__attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Bottom17">Nuno Costa</a>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./src/utils/insertData.js"></script>
+  </body>
+</html>
