@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution URL](https://github.com/Bottom17/results-summary-component-challenge)
+- Live Site URL: [Live site URL](https://bottom17.github.io/results-summary-component-challenge/)
 
 ## My process
 
