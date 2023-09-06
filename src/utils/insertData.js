@@ -9,7 +9,12 @@ fetch("../src/data.json")
     const averageScoreElement = document.querySelector(
       ".app__result-circle-total"
     );
+    const descriptionElement = document.querySelector(
+      ".app__result-description"
+    );
     averageScoreElement.innerHTML += 0;
+    descriptionElement.innerHTML +=
+      "The JSON file couldn't be read. Something went wrong, check console for more information.";
     console.log("error: " + err);
   });
 
